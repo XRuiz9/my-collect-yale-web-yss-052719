@@ -6,5 +6,5 @@ def my_collect(array)
     i = i.capitalize!
     new << i
   end
-  array
+  new
 end
