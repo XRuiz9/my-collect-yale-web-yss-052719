@@ -3,7 +3,7 @@ def my_collect(array)
   new = []
   while i < array.length
     yield(array[i])
-    i = i.capitalize!
+    i = i.capitalize
     new << i
   end
   new
